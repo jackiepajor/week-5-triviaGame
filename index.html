@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Animal Trivia Game</title>
+
+		<!--Reset-->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<!--Reset-->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	<body>
+
+		<!--Start Board-->
+		<div id = startGame>
+			<h1 class = "header">Animal Trivia</h1>
+			<button id = playBtn>Play!</button>
+		</div>
+
+		<!--Trivia Game Board-->
+		<div id = playGame>
+			<h1 class = "header">Animal Trivia</h1>
+			<hr>
+			<!--Timer-->
+			<h1 id = "timer">Time Remaining: <span id = "timerSeconds">60 Seconds</span></h1>
+			<hr>
+			<!--Question 1 (C)-->
+			<h1>1.What animal has the longest lifespan?</h1>
+				<input type="radio" name="question1" value="Elephant">Elephant
+				<input type="radio" name="question1" value="BlueWhale">Blue Whale 
+				<input type="radio" name="question1" value="GiantTortoise">Giant Tortoise
+				<input type="radio" name="question1" value="Locust">Locust 
+				
+			<!--Question 2 (C)-->
+			<h1>2.How many times can a hummingbird flap its wings per second?</h1>
+				<input type="radio" name="question2" value="20">20
+				<input type="radio" name="question2" value="40">40
+				<input type="radio" name="question2" value="80">80
+				<input type="radio" name="quesiton2" value="160">160
+
+			<!--Question 3 (A)-->
+			<h1>3.What animal has the highest blood pressure?</h1>
+				<input type="radio" name="question3" value="Giraffe">Giraffe
+				<input type="radio" name="question3" value="BlueWhale">Blue Whale
+				<input type="radio" name="question" value="Elephant">Elephant
+				<input type="radio" name="question3" value="Flea">Flea
+
+			<!--Question 4 (A)-->
+			<h1>4.A newborn kangaroo is about the size of a what?</h1>
+				<input type="radio" name="question4" value="LimaBean">Lima Bean 
+				<input type="radio" name="question4" value="Grapefruit">Grapefruit
+				<input type="radio" name="question4" value="Plum">Plum
+				<input type="radio" name="question4" value="Watermelon">Watermelon
+			
+			<!--Question 5 (A)-->
+			<h1>5.Which of the following aniamls sleep standing up?</h1>
+				<input type="radio" name="question5" value="Flamingos">Flamingos 
+				<input type="radio" name="question5" value="Gorillas">Gorillas
+				<input type="radio" name="question5" value="Camels">Camels
+				<input type="radio" name="question5" value="Falcons">Falcons
+				
+			<!--Question 6 (B)-->
+			<h1>6.How far can an owl rotate its head?</h1>
+				<input type="radio" name="question6" value="180">180 degrees
+				<input type="radio" name="question6" value="270">270 degrees 
+				<input type="radio" name="question6" value="360">360 degrees
+				<input type="radio" name="question6" value="90">90 degrees
+				
+			<!--Question 7 (C)-->
+			<h1>7.What is the largest "big cat" in the world?</h1>
+				<input type="radio" name="q7" value="Lion">Lion
+				<input type="radio" name="q7" value="Panther">Panther
+				<input type="radio" name="q7" value="Tiger">Tiger 
+				<input type="radio" name="q7" value="Cheetah"> Cheetah
+
+			<!--Question 8 (C)-->
+			<h1>8.The crocodile species is believed to have been around for how long?</h1>
+				<input type="radio" name="q8" value="17">17 million years 
+				<input type="radio" name="q8" value="30">30 million years
+				<input type="radio" name="q8" value="200">200 million years 
+				<input type="radio" name="q8" value="12">12 million years
+
+			<!--Question 9 (F)-->
+			<h1>9.Do camels store water in their humps? </h1>
+				<input type="radio" name="q9" value="True">True
+				<input type="radio" name="q9" value="False">False 
+			
+			<!--Question 10 (D)-->
+			<h1>10.How many stomachs does a cow have? </h1>
+				<input type="radio" name="q10" value="1">1
+				<input type="radio" name="q10" value="5">5
+				<input type="radio" name="q10" value="6"> 6
+				<input type="radio" name="q10" value="4">4 
+				<br>
+			<!--Submit Button-->
+			<button id = submitBtn>Submit</button>
+
+		</div>
+
+
+		<!-- End game board -->
+		<div id = endGame>
+			<h1 class = "header">Animal Trivia</h1>
+			<hr>
+			<h1 id = "gameOver">Game Over!</h1>
+			<br>
+			<h1>Correct Answers: <span id = "correctAnswers">0</span></h1>
+			<h1>Incorrect Answers: <span id = "incorrectAnswers">0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
+
+		<!--jQuery Library-->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		<!--Javascript-->
+		<script src="assets/javascript/app.js"></script>
+		
+	</body>
+</html>
