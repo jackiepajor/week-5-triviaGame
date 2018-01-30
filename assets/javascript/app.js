@@ -24,11 +24,8 @@ $(document).ready(function () {
 		// Display the timer which counts down from 60 seconds
 		timer--;
 		$('#timerSeconds').html(timer + " Seconds");
-		// User finishes before time is up and clicks done
 		$("#submitBtn").on("click", function () {
-			// Stop the countdown and run the timeUp function
-			//clearInterval(startCountdown);
-			timer = 0; // <---- Needed a hack since I couldn't get the clearInterval function to work... It's been a long week :/
+			timer = 0; 
 			return;
 		});
 		// The game ends when the timer reaches 0 seconds
