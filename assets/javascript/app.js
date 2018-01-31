@@ -1,3 +1,9 @@
+// I'm not sure why, but when i test the game and leave some questions unanswered, the end count seems to be wrong.  However,
+// if i answer all questions regardless of correct or incorrect, the count is accurate....Cant figure out why its doing that :(
+// I would also like to go back and find a more "DRY" way to right the if statements for determining the results for each of 
+// the questions.  What I have now is what made the most clear sense to me, but i recognize there has to be a better way 
+// to do it.
+
 // 60 second game timer (Countdown)
 var timer = 60;
 
